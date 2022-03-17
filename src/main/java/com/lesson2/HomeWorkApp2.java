@@ -9,7 +9,8 @@ public class HomeWorkApp2 {
         printSome("some text", 4);
 
     }
-    private static boolean summ (int a, int b) {
+
+    private static boolean summ(int a, int b) {
         int c = a + b;
         boolean var;
         if (10 < c && c <= 20) { //не стал менять на упрощение, предложенное Идеей, для наглядности
@@ -20,17 +21,17 @@ public class HomeWorkApp2 {
         return var;
     }
 
-    private static void  check (int a) {
-        if (a >= 0){
+    private static void check(int a) {
+        if (a >= 0) {
             System.out.println("Положительное");
         } else {
             System.out.println("Отрицательное");
         }
     }
 
-    private static boolean boolCheck (int a) {
+    private static boolean boolCheck(int a) {
         boolean var;
-        if (a>= 0){
+        if (a >= 0) {
             var = false;
         } else {
             var = true;
@@ -38,7 +39,7 @@ public class HomeWorkApp2 {
         return var;
     }
 
-    private static void printSome (String some, int count ) {
+    private static void printSome(String some, int count) {
         for (int i = 1; i <= count; i++) {
             System.out.println(some);
         }
