@@ -62,10 +62,10 @@ public class HomeWorkApp3 {
         }
     }
 
-    public static int[] arrExc5(int len, int initialValue){
+    public static int[] arrExc5(int len, int InitialValue){
         int [] arr = new int[len];
         for (int i = 0; i < len; i++) {
-            arr[i] = initialValue;
+            arr[i] = InitialValue;
         }
         return arr;
     }
